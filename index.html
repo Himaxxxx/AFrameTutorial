@@ -32,7 +32,26 @@
  
     <a-sky color="#241b2f"></a-sky> 
     
-    <a-entity environment ="preset: egypt"></a-entity>
+    <a-entity environment ="
+      active: true;
+      preset: egypt;
+      seed: 2;
+      skyType: gradient;
+      skyColor: #A1D1C2;
+      horizonColor: #D46A1E;
+      lighting: distant;
+      shadow: true;
+      shadowBias: 0.005;
+      shadowSize: 10;
+      lightPositions: 0 1 -0.2;
+      fog: 0.005;
+      flatShading: true;
+      playArea: 1;
+      stageSize: 200;
+      groundFrequency: 12;
+      dressingVariation: 1 1 1;
+      dressing UniformScale: false;
+    " ></a-entity>
  
   </a-scene> 
  
